@@ -384,6 +384,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 |---------|-------|-------------|
 | [aquaman](https://github.com/tech4242/aquaman) | - | Credential isolation proxy — API keys never enter the agent process, injected via UDS from Keychain/1Password/Vault/keepassxc |
 | [APort Agent Guardrails](https://github.com/aporthq/aport-agent-guardrails) | - | Pre-action authorization for OpenClaw; `before_tool_call` plugin, allowlist + 40+ blocked patterns, local or API. Setup: `npx @aporthq/agent-guardrails` |
+| [leashed](https://github.com/dormstern/leashed) | - | Policy engine, audit log, and kill switch for AI agents. Allow/deny patterns, time limits, and emergency revocation. |
 
 ### Security Resources
 
