@@ -1,12 +1,31 @@
 # Awesome OpenClaw [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated collection of resources, tools, skills, tutorials, and articles for **OpenClaw** — the open-source AI agent that's taking the world by storm.
+> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects — the open-source self-hosted AI agent taking the world by storm.
 
-OpenClaw (formerly Moltbot, originally Clawdbot) is a free and open-source autonomous AI agent created by Peter Steinberger. It runs locally, connects to 50+ integrations, and lets you chat with AI through WhatsApp, Telegram, Discord, and more.
+**OpenClaw** (formerly Moltbot, originally Clawdbot) is a free and open-source autonomous AI agent created by Peter Steinberger. It runs locally on your machine, connects to 50+ integrations, and lets you chat with AI through WhatsApp, Telegram, Discord, Signal, iMessage, and more — no subscription required.
 
 [![GitHub stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social)](https://github.com/openclaw/openclaw)
 
-<img width="1536" height="1024" alt="oc" src="https://github.com/user-attachments/assets/dc60b4c4-18f4-4ebd-a5b9-8294d2e924ab" />
+<img width="1536" height="1024" alt="OpenClaw AI agent dashboard — open-source self-hosted personal AI assistant" src="https://github.com/user-attachments/assets/dc60b4c4-18f4-4ebd-a5b9-8294d2e924ab" />
+
+---
+
+## What is OpenClaw?
+
+OpenClaw is a **self-hosted, open-source AI agent** that acts as your personal AI assistant — accessible via WhatsApp, Telegram, Discord, and 12+ other messaging platforms. Unlike cloud-based AI services, OpenClaw runs entirely on your own hardware, keeping your data private.
+
+**Key features:**
+- **Free & open-source** — no subscription, no lock-in (MIT licensed)
+- **Self-hosted** — runs locally on macOS, Linux, and Windows
+- **12+ messaging platforms** — WhatsApp, Telegram, Discord, Slack, Signal, iMessage, Teams, and more
+- **50+ integrations** — GitHub, Gmail, Spotify, Obsidian, smart home (Hue, HomeKit), and more
+- **700+ community skills** on [ClawHub](https://clawhub.ai/)
+- **Local LLM support** via Ollama and LM Studio (run DeepSeek, Llama, Mistral, etc.)
+- **Persistent memory** across sessions — remembers context and preferences
+- **Model Context Protocol (MCP)** support for extended agentic capabilities
+- **Multi-provider** — Anthropic Claude, OpenAI GPT, Google Gemini, or any local model
+
+> **Quick install:** `npm install -g openclaw@latest && openclaw onboard`
 
 ---
 
@@ -24,6 +43,7 @@ OpenClaw (formerly Moltbot, originally Clawdbot) is a free and open-source auton
 - [Community Projects](#community-projects)
 - [Alternatives & Comparisons](#alternatives--comparisons)
 - [Security](#security)
+- [FAQ](#faq)
 - [Ruleskill](https://ruleskill.com) - We want to verify your code for the RuleSkill Protocol. Claim your badge.
 
 ---
@@ -47,26 +67,26 @@ OpenClaw (formerly Moltbot, originally Clawdbot) is a free and open-source auton
 ### Quick Install
 
 ```bash
-# Install via npm
+# Install via npm (Node.js 22+ required)
 npm install -g openclaw@latest
 
 # Or via pnpm
 pnpm add -g openclaw@latest
 
-# Run onboarding wizard
+# Run the onboarding wizard
 openclaw onboard --install-daemon
 ```
 
 ### First Steps
 
-1. Run `openclaw onboard` to start the setup wizard
-2. Choose your AI provider (Anthropic Claude, OpenAI, or local via Ollama)
-3. Connect a messaging platform (Telegram, WhatsApp, Discord, etc.)
-4. Start chatting with your personal AI assistant!
+1. Run `openclaw onboard` to launch the setup wizard
+2. Choose your AI provider (Anthropic Claude, OpenAI GPT, or local via Ollama)
+3. Connect a messaging platform (Telegram recommended for beginners; WhatsApp, Discord, Signal also supported)
+4. Start chatting with your personal AI assistant at `http://localhost:18789/`
 
-### Dashboard
+### Web Dashboard
 
-Access the web dashboard at `http://localhost:18789/` to chat and manage your agent.
+Access the built-in web dashboard at `http://localhost:18789/` to chat, manage integrations, and configure your agent without any CLI.
 
 ---
 
@@ -77,8 +97,8 @@ Access the web dashboard at `http://localhost:18789/` to chat and manage your ag
 | [Official Getting Started](https://docs.openclaw.ai/start/getting-started) | All | Official setup guide |
 | [Codecademy Tutorial](https://www.codecademy.com/article/open-claw-tutorial-installation-to-first-chat-setup) | All | Installation to first chat |
 | [Hostinger Guide](https://www.hostinger.com/tutorials/how-to-set-up-openclaw) | VPS | Private server setup |
-| [DigitalOcean One-Click](https://www.digitalocean.com/community/tutorials/how-to-run-openclaw) | Cloud | One-click deployment |
-| [LMStudio Setup](https://nwosunneoma.medium.com/how-to-setup-openclaw-with-lmstudio-1960a8046f6b) | Local | Run with local models |
+| [DigitalOcean One-Click](https://www.digitalocean.com/community/tutorials/how-to-run-openclaw) | Cloud | One-click cloud deployment |
+| [LMStudio Setup](https://nwosunneoma.medium.com/how-to-setup-openclaw-with-lmstudio-1960a8046f6b) | Local | Run with local LLM models |
 | [Docker Setup](https://habr.com/en/articles/992720/) | Docker | Container deployment |
 | [Afternoon Setup Guide](https://amankhan1.substack.com/p/how-to-get-clawdbotmoltbotopenclaw) | All | Quick setup walkthrough |
 
@@ -166,7 +186,7 @@ openclaw plugins install <npm-package>
 
 ## MCP Support
 
-OpenClaw supports the Model Context Protocol (MCP) for extended capabilities.
+OpenClaw supports the **Model Context Protocol (MCP)** — the open standard adopted by Anthropic, OpenAI, Google DeepMind, and the Linux Foundation — giving your agent access to a growing ecosystem of 13,000+ MCP servers.
 
 ### MCP Resources
 
@@ -353,13 +373,19 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 
 ## Alternatives & Comparisons
 
+OpenClaw is often compared to other autonomous AI agents and self-hosted AI assistants. Here's how it stacks up:
+
 | Agent | Type | Best For |
 |-------|------|----------|
-| [OpenClaw](https://openclaw.ai/) | Open Source | Personal AI assistant, chat-driven |
+| [OpenClaw](https://openclaw.ai/) | Open Source | Personal AI assistant, chat-driven, 12+ messaging platforms |
 | [Manus AI](https://manus.ai/) | Proprietary | General agent framework |
-| [OpenManus](https://github.com/openmanus) | Open Source | Manus alternative |
+| [OpenManus](https://github.com/openmanus) | Open Source | Open-source Manus AI alternative |
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Open Source | Autonomous task execution |
+| [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) | Open Source | Terminal-based code execution |
 | [Claude Code](https://claude.ai/code) | Proprietary | Developer coding assistance |
-| [Jan.ai](https://jan.ai/) | Open Source | Privacy-focused, offline |
+| [Jan.ai](https://jan.ai/) | Open Source | Privacy-focused, fully offline |
+| [Agent Zero](https://github.com/frdel/agent-zero) | Open Source | Fully local autonomous agent |
+| [Khoj](https://github.com/khoj-ai/khoj) | Open Source | Open-source personal AI |
 | [eesel AI](https://eesel.ai/) | SaaS | Business customer service |
 
 ### Comparison Resources
@@ -376,12 +402,12 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 
 ### Best Practices
 
-- Run OpenClaw in a sandboxed environment
-- Limit file system access to necessary directories
-- Use environment variables for API keys
-- Regularly update to the latest version
-- Review skills before installing
-- Don't expose instances to the public internet
+- Run OpenClaw in a sandboxed environment to limit blast radius
+- Restrict file system access to only necessary directories
+- Store API keys in environment variables — never hardcode them
+- Keep OpenClaw updated to the latest version
+- Review skills before installing from third-party sources
+- Never expose your OpenClaw instance to the public internet
 
 ### Security Tools
 
@@ -394,12 +420,36 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 ### Security Resources
 
 - [CrowdStrike Analysis](https://www.crowdstrike.com/en-us/blog/what-security-teams-need-to-know-about-openclaw-ai-super-agent/) - Security team guide
+- [Giskard: OpenClaw Security Vulnerabilities](https://www.giskard.ai/knowledge/openclaw-security-vulnerabilities-include-data-leakage-and-prompt-injection-risks) - Data leakage & prompt injection risks
+- [Cisco: Personal AI Agents Security](https://blogs.cisco.com/ai/personal-ai-agents-like-openclaw-are-a-security-nightmare) - Enterprise security perspective
 
 ### Known Risks
 
 - Exposed instances can be commandeered by adversaries
-- Malicious instructions can be embedded in ingested data
-- Misconfigured setups may leak sensitive data
+- Prompt injection via malicious content in ingested data
+- Misconfigured setups may leak sensitive data or API keys
+
+---
+
+## FAQ
+
+**What is OpenClaw?**
+OpenClaw is a free, open-source, self-hosted AI agent created by Peter Steinberger (formerly known as Clawdbot and Moltbot). It runs locally on your computer and connects to WhatsApp, Telegram, Discord, and 12+ other messaging platforms.
+
+**How is OpenClaw different from ChatGPT?**
+OpenClaw is self-hosted (runs on your own machine), open-source, supports any AI model (including local models via Ollama), and integrates with real-world tools like GitHub, Gmail, and smart home devices. ChatGPT is a cloud service operated by OpenAI.
+
+**Does OpenClaw work with local LLMs?**
+Yes. OpenClaw supports Ollama and LM Studio, letting you run models like DeepSeek, Llama, Mistral, and others entirely offline without sending data to any cloud service.
+
+**What is the difference between Clawdbot, Moltbot, and OpenClaw?**
+All three names refer to the same project. It started as Clawdbot, was renamed to Moltbot, and eventually became OpenClaw as it went fully open-source.
+
+**Is OpenClaw free?**
+Yes. OpenClaw is MIT licensed and completely free to use. You only pay for any AI API calls you make (e.g., OpenAI or Anthropic), or you can run it fully free with local models via Ollama.
+
+**How do I install OpenClaw?**
+Run `npm install -g openclaw@latest` then `openclaw onboard` to start the setup wizard. See the [Installation Guides](#installation-guides) section for platform-specific guides.
 
 ---
 
