@@ -257,11 +257,12 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 
 | Project | Stars | Description |
 |---------|-------|-------------|
-| [webclaw](https://github.com/ibelick/webclaw) | 155+ | Fast, minimal web client for OpenClaw |
-| [openclaw-web](https://github.com/anthropics/openclaw-web) | - | Official web interface |
 | [clawterm](https://github.com/nicholaschen/clawterm) | - | Terminal-based OpenClaw client |
-| [PinchChat](https://github.com/MarlBurroW/pinchchat) | - | Open-source webchat UI with ChatGPT-like interface, live tool call visualization, multi-session management, token tracking, streaming, PWA, 8 languages |
 | [MobileClaw](https://github.com/wende/mobileclaw) | NEW | Mobile-first PWA client for OpenClaw — live tool calls with inline diffs, sub-agent activity feed, reasoning blocks, push notifications. Also supports LM Studio. No Xcode build required, just a URL. [Live demo](https://mobileclaw.vercel.app?demo) |
+| [Nerve](https://github.com/daggerhashimoto/openclaw-nerve) | NEW | Self-hosted web cockpit for OpenClaw — real-time streaming with reasoning blocks, voice I/O (local STT/TTS), sub-agent session monitoring, cron job management, memory editor, inline TradingView/Recharts, code editor, model selector. One-command install. [Website](https://nerve.zone) |
+| [openclaw-web](https://github.com/anthropics/openclaw-web) | - | Official web interface |
+| [PinchChat](https://github.com/MarlBurroW/pinchchat) | - | Open-source webchat UI with ChatGPT-like interface, live tool call visualization, multi-session management, token tracking, streaming, PWA, 8 languages |
+| [webclaw](https://github.com/ibelick/webclaw) | 155+ | Fast, minimal web client for OpenClaw |
 
 ### Deployment & Infrastructure
 
