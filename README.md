@@ -111,7 +111,7 @@ Access the built-in web dashboard at `http://localhost:18789/` to chat, manage i
 - [ClawHub](https://clawhub.ai/) - Official skill store (700+ skills)
 - [AgentFund](https://github.com/RioTheGreat-ai/agentfund-skill) - Crowdfunding platform for AI agents (milestone-based escrow on Base)
 - [ClawdTalk](https://github.com/team-telnyx/clawdtalk-client) - Phone calling and SMS for OpenClaw. Call your AI agent from any phone with deep tool integration for calendar, Jira, web search, and more. Powered by Telnyx.
-- [clawr.ing](https://clawr.ing) - Your bot gets a real phone and calls you. Wake-up calls, reminders, alerts with two-way voice conversations. 70+ voices, 100+ countries
+- [clawr.ing](https://clawr.ing) - Your bot gets a real phone and calls you. Wake-up calls, reminders, alerts with two-way voice conversations
 - [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) - Community curated collection
 - [openclaw/skills](https://github.com/openclaw/skills) - Official skills repository
 - [openclaw/clawhub](https://github.com/openclaw/clawhub) - Skill directory source
