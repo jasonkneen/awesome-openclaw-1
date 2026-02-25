@@ -453,6 +453,16 @@ Run `npm install -g openclaw@latest` then `openclaw onboard` to start the setup 
 
 ---
 
+### Agent Communication & Coding
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [claude-code-pro](https://github.com/voidborne-d/claude-code-pro) | NEW | Token-efficient Claude Code workflow — completion callbacks instead of polling, saves 80-97% supervision tokens. Smart dispatch rules. `clawhub install claude-code-pro` |
+| [lambda-lang](https://github.com/voidborne-d/lambda-lang) | NEW | Native agent-to-agent language with 3x character compression vs natural language. 340+ semantic atoms across 7 domains, Go + Python implementations. `clawhub install lambda-lang` |
+| [humanize-chinese](https://github.com/openclaw/skills/tree/main/skills/swaylq/humanize-chinese) | NEW | Detect and humanize AI-generated Chinese text with 6 style transforms and 16 detection patterns. Pure Python, no dependencies. `clawhub install humanize-chinese` |
+
+---
+
 ## Contributing
 
 Contributions welcome! Please submit a PR to add resources.
