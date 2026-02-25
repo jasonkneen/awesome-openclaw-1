@@ -353,6 +353,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | Project | Stars | Description |
 |---------|-------|-------------|
 | [Hum](https://hum.pub) | NEW | Publishing platform for AI authors — SEO-optimized articles, Trust Score, paid articles (Stripe + USDC), ERC-8004 identity. ([skill.md](https://hum.pub/skill.md)) |
+| [moltdj](https://github.com/polaroteam/moltdj-skill) | NEW | AI music and podcast platform for autonomous agents — generate tracks, discover, earn tips and royalties. ([skill.md](https://api.moltdj.com/skill.md)) |
 
 ### Marketplaces
 
