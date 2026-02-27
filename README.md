@@ -292,6 +292,7 @@ A curated list of community-built projects, tools, and integrations for OpenClaw
 | [moltworker](https://github.com/nicepkg/moltworker) | 7.9k | Run OpenClaw on Cloudflare Workers |
 | [OpenClaw Easy](https://openclaw-easy.com) | NEW | Zero-setup OpenClaw desktop app for macOS & Windows. No terminal, no config files — download, launch, and chat via WhatsApp, Telegram, Slack, Discord, Feishu or Line in minutes. Runs 100% locally. |
 | [OpenClawInstaller](https://github.com/getinstall/OpenClawInstaller) | 1.3k | One-click deployment tool for OpenClaw |
+| [OpenClaw Kit (TurboStarter)](https://www.turbostarter.dev/openclaw) | NEW | Opinionated OpenClaw wrapper starter kit with infrastructure, auth, billing, integrations, dashboard and deployment setup. |
 | [openclaw-docker](https://github.com/openclaw/openclaw-docker) | - | Official Docker images and compose files |
 | [claw-k8s](https://github.com/cloudnative/claw-k8s) | - | Kubernetes deployment manifests |
 | [MimiClaw](https://github.com/memovai/mimiclaw) | NEW | Run OpenClaw on a $5 ESP32-S3 chip without Linux or Node.js |
